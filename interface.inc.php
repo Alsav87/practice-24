@@ -44,7 +44,7 @@ class Bus  implements Powerfuble, Containable {
     }
     
 }
-class Excavator implements  scoopable {
+class Excavator implements  Scoopable {
     public function movement()
     {
         echo $this->carName . " экскаватор ";
@@ -70,6 +70,5 @@ echo", ";
 $bus-> payload();
 echo "<br>";
 $excavator->movement();
-echo ", ";
 $excavator->scooping();
 
